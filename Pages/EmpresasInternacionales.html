@@ -7,7 +7,7 @@
     <title>Empresas Internacionales</title>
     <link href="../bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="../images/ws_El_Salvador_Flag_1920x1200.webp">
-    <link rel="stylesheet" href="../css/cardsEmpresas.css">
+    <link rel="stylesheet" href="../css/cards.css">
 </head>
 
 <body>
@@ -39,7 +39,38 @@
             </div>
         </div>
     </nav>
-    <br><br><br>
+    <br><br>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="max-height: 550px;" src="../images/Apple.jpg" class="d-block w-100" alt="Apple">
+            </div>
+            <div class="carousel-item">
+                <img style="max-height:550px;" src="../images/Amazon.jpg" class="d-block w-100" alt="Amazon">
+            </div>
+            <div class="carousel-item">
+                <img style="max-height:550px;" src="../images/Google.jpg" class="d-block w-100" alt="Google">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     <h1 style="text-align: center;">Empresas de software Internacionales</h1>
 
 
@@ -49,7 +80,7 @@
             <img src="../images/Microsft.webp" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Microsoft Corporation <b>Estados Unidos</b></h5>
-                <p class="card-text">Microsoft es una empresa multinacional de tecnología que desarrolla, fabrica,
+                <p>Microsoft es una empresa multinacional de tecnología que desarrolla, fabrica,
                     licencia y vende software, hardware, servicios de computación en la nube y productos relacionados.
                     Microsoft es conocida por sus sistemas operativos como Windows, su suite de productividad Office,
                     servicios en la nube como Azure, y una amplia gama de productos y servicios para consumidores y
@@ -62,7 +93,7 @@
             <img src="../images/Google.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Google LLC <b>Estados Unidos</b></h5>
-                <p class="card-text">Google es una empresa multinacional de tecnología que se especializa en servicios y
+                <p>Google es una empresa multinacional de tecnología que se especializa en servicios y
                     productos relacionados con Internet. Ofrece una amplia gama de servicios, incluyendo su motor de
                     búsqueda líder, publicidad en línea, servicios de correo electrónico (Gmail), sistemas operativos
                     móviles (Android), plataformas de video (YouTube), y servicios en la nube (Google Cloud Platform),
@@ -75,7 +106,7 @@
             <img src="../images/Apple.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Apple inc <b>Estados Unidos</b></h5>
-                <p class="card-text">Apple es una empresa de tecnología multinacional que diseña, fabrica y vende
+                <p>Apple es una empresa de tecnología multinacional que diseña, fabrica y vende
                     productos electrónicos de consumo, software y servicios. Apple es conocida por sus productos
                     icónicos como el iPhone, iPad, Mac, Apple Watch y servicios como iTunes y iCloud. La empresa también
                     ha desarrollado sistemas operativos como iOS y macOS, así como aplicaciones y servicios en línea.
@@ -87,7 +118,7 @@
             <img src="../images/Amazon.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Amazon Inc <b>Estados Unidos</b></h5>
-                <p class="card-text"> Amazon es una empresa multinacional de tecnología y comercio electrónico que
+                <p> Amazon es una empresa multinacional de tecnología y comercio electrónico que
                     ofrece una amplia variedad de productos y servicios a través de su plataforma en línea. Además de
                     ser el minorista en línea más grande del mundo, Amazon también es conocida por sus servicios en la
                     nube a través de Amazon Web Services (AWS), dispositivos de consumo como el Kindle y productos de
@@ -101,7 +132,7 @@
             <img src="../images/Adobe.jfif" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Adobe Inc <b>Estados Unidos</b></h5>
-                <p class="card-text">Adobe es una empresa de software conocida por sus productos en el campo del diseño
+                <p>Adobe es una empresa de software conocida por sus productos en el campo del diseño
                     gráfico, edición de imágenes, edición de vídeo, desarrollo web y publicación digital. Sus productos
                     más populares incluyen Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Adobe Acrobat, y
                     Adobe Creative Cloud, que ofrece una suite completa de herramientas para profesionales creativos y
@@ -112,7 +143,7 @@
 
     </div>
 
-    <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/codigo.js"></script>
 
     <!-- Footer -->
